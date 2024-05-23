@@ -1,0 +1,22 @@
+{
+  "name": "Example TS Testing Bootstrapping",
+  "version": "1.0.0",
+  "description": "Example of setting up Jest, TS-Node, and TypeScript for testing",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "Dave Smith-Hayes",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.12.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1"
+  }
+}
